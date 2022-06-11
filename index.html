@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dženis</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <!--   Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#home" id="navbar-logo">Dženis</a>
+            <div class="navbar-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar-menu">
+                <li class="navbar-item">
+                    <a href="#home" class="navbar-links" id="home-page">Početna</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#about" class="navbar-links" id="about-page">O nama</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="#services" class="navbar-links" id="services-page">Usluge</a
+            >
+          </li>
+          <li class="navbar-item">
+            <a href="#team" class="navbar-links" id="team-page"
+              >Naš tim</a
+            >
+          </li>
+          <li class="navbar-btn">
+            <a href="#sing-up" class="button" id="sign-up">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--   Heading Section -->
+    <div class="heading-section" id="home">
+        <h1 class="heading-title">SERVIS <span>MOTORKI I KOSILICA</span></h1>
+
+        <!--image slider start-->
+        <div class="slider">
+            <div class="slides">
+                <!--radio buttons start-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--radio buttons end-->
+                <!--slide images start-->
+                <div class="slide first">
+                    <img src="./kosilica.jpg">
+                </div>
+                <div class="slide">
+                    <img src="./OIP.jpg">
+                </div>
+                <div class="slide">
+                    <img src="./repair.png">
+                </div>
+                <div class="slide">
+                    <img src="./kosilica.jpg">
+                </div>
+                <!--slide images end-->
+                <!--automatic navigation start-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+        </div>
+        <!--image slider end-->
+    </div>
+
+    <!--    About Section -->
+    <div class="main" id="about">
+        <div class="main-container">
+            <div class="main-content">
+                <h1>Šta Vam nudimo?</h1>
+                <h2>Mi vršimo popravku vaših kosilica i motornih pila</h2>
+                <p>Odgovaramo na sva vaša pitanja u vezi kosilica i motornih pila</p>
+                <button class="main-btn"><a href="#">Nazovite nas</a></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="services" id="services">
+        <h1>Naše usluge</h1>
+        <div class="services-wrapper">
+            <div class="services-card">
+                <h2>Dijagnostika kosilice</h2>
+                <div class="services-btn">
+                    <button>O</button>
+                </div>
+            </div>
+            <div class="services-card">
+                <h2>Popravka kosilice</h2>
+                <div class="services-btn">
+                    <button>O</button>
+                </div>
+            </div>
+            <div class="services-card">
+                <h2>Dijagnostika motorne pile</h2>
+                <div class="services-btn">
+                    <button>O</button>
+                </div>
+            </div>
+            <div class="services-card">
+                <h2>Popravak motorne pile</h2>
+                <div class="services-btn"><button>O</button></div>
+            </div>
+        </div>
+    </div>
+
+    <!--   Team Section -->
+    <div class="main" id="team">
+        <div class="main-container">
+            <div class="main-content">
+                <h1>Naš tim</h1>
+                <h2>Najbolji majstori u REGIJI SBK</h2>
+            </div>
+            <div class="main-img__container">
+                <div class="main-img__card" id="card-2">
+                    <i class="fas fa-user"></i>
+                    <span>DŽENIS</span>
+                </div>
+                <div class="main-img__card" id="card-2">
+                    <i class="fas fa-user"></i>
+                    <span>SUAD</span>
+                </div>
+                <div class="main-img__card" id="card-2">
+                    <i class="fas fa-user"></i>
+                    <span>ELMIR</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--     Footer Section  -->
+    <div class="footer-container">
+        <div class="footer-links">
+            <div class="footer-link__wrapper">
+                <div class="footer-link__items">
+                    <h2>O nama</h2>
+                    <p>SZR Dženis je specijalizirana radionica za zamjenu dijelova ili popravke na kosilicama i motornim pilama. Vaše kosilice ili pile nam možete dostaviti direktno ili se javiti nama da preuzmemo sa vaše adrese</p>
+                </div>
+                <div class="footer-link__items">
+                    <h2>Kontakt</h2>
+                    <span class="fa fa-phone"><a style="margin-left: 1rem;">+387-62-xxx-xxx</a></span>
+                    <span class="fa fa-map-marker"><a style="margin-left: 1rem;">Gromile IV</a></span>
+                    <span class="fa fa-envelope"><a style="margin-left: 1rem;">samirhajdarevic1995@gmail.com</a></span>
+                </div>
+            </div>
+        </div>
+        <section class="social-media">
+            <div class="social-media__wrap">
+                <a id="footer-logo">Društvene mreže</a>
+            </div>
+            <div class="social-icons">
+                <a href="/" class="social-icon__link" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="/" class="social-icon__link"><i class="fab fa-instagram"></i></a>
+                <a href="/" class="social-icon__link"><i class="fab fa-youtube"></i></a>
+            </div>
+        </section>
+    </div>
+    </div>
+</body>
+
+</html>
